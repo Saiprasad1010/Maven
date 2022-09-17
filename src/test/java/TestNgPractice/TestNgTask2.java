@@ -55,7 +55,7 @@ public class TestNgTask2 {
 	public void mono() throws InterruptedException {
 	Thread.sleep(3000);
 	WebElement mobilenum=driver.findElement(By.xpath("/html/body/div/div/div/div[6]/form/div/input"));
-	mobilenum.sendKeys("8788269600");
+	mobilenum.sendKeys("9421186186");
 	System.out.println("mobile number enter");
 	}
 	
@@ -71,7 +71,7 @@ public class TestNgTask2 {
 	public void emailin() throws InterruptedException {
 	Thread.sleep(3000);
 	WebElement email=driver.findElement(By.xpath("//input[@id='j_username_new']"));
-	email.sendKeys("subhgadupatil@gmail.com");
+	email.sendKeys("subhashpatil@gmail.com");
 	System.out.println("email entered");
 	}
 	
