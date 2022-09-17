@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="password" value="admin03"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="user" value="Admin"/>
+    <classes>
+      <class name="TestNgPractice.AssetPara">
+        <methods>
+          <include name="Assert" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestNgPractice.AssetPara -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

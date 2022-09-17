@@ -12,19 +12,20 @@ public class urlhit {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		WebDriverManager.chromedriver().setup();
-		WebDriver driver=new ChromeDriver();
-		driver.get("https://www.google.com/");
+		WebDriverManager.chromedriver().setup(); //browser setup
+		WebDriver driver=new ChromeDriver(); //up casting
+		driver.get("https://www.google.com/");  // to hit particular url 
 		String D=driver.getCurrentUrl();
 		System.out.println(D);
 		
 		String S=driver.getTitle();
 		System.out.println(S);
 		
+		String s=driver.getPageSource();
+		
 		try {
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -37,25 +38,9 @@ public class urlhit {
 		String A=driver.getCurrentUrl();
 		System.out.println(A);
 		
-		
-		
 		driver.close();
-		
-//		WebDriverManager.edgedriver().setup();
-//		WebDriver driver1=new EdgeDriver();
-//		driver1.get("https://ycmou.digitaluniversity.ac/");
-//		driver1.close();
-//		
-//		WebDriverManager.firefoxdriver().setup();
-//		WebDriver driver2=new FirefoxDriver();
-//		driver2.get("https://www.amazon.in/gp/cart/view.html?ref_=nav_cart");
-//		driver2.close();
-
+		driver.quit();
+	}
 	}
 
-	private static Object manage() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 
-}

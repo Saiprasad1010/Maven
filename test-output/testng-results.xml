@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-15T22:03:46 IST" name="Default suite" finished-at="2022-09-15T22:04:50 IST" duration-ms="63960">
+    <groups>
+    </groups>
+    <test started-at="2022-09-15T22:03:46 IST" name="Default test" finished-at="2022-09-15T22:04:50 IST" duration-ms="63960">
+      <class name="TestNgPractice.TestNgTask2">
+        <test-method is-config="true" signature="BrowserSet()[pri:0, instance:TestNgPractice.TestNgTask2@3e27aa33]" started-at="2022-09-15T22:03:47 IST" name="BrowserSet" finished-at="2022-09-15T22:04:21 IST" duration-ms="34258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserSet -->
+        <test-method signature="loginbt()[pri:1, instance:TestNgPractice.TestNgTask2@3e27aa33]" started-at="2022-09-15T22:04:22 IST" name="loginbt" description="Here we click on LOGIN symbol" finished-at="2022-09-15T22:04:22 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginbt -->
+        <test-method signature="registerbt()[pri:2, instance:TestNgPractice.TestNgTask2@3e27aa33]" started-at="2022-09-15T22:04:22 IST" name="registerbt" description="here we click on register button" finished-at="2022-09-15T22:04:22 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerbt -->
+        <test-method signature="Iframe()[pri:3, instance:TestNgPractice.TestNgTask2@3e27aa33]" started-at="2022-09-15T22:04:22 IST" name="Iframe" description="Here we find out iframe to manage that perticular fram to make further actions" finished-at="2022-09-15T22:04:25 IST" duration-ms="3087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Iframe -->
+        <test-method signature="mono()[pri:4, instance:TestNgPractice.TestNgTask2@3e27aa33]" started-at="2022-09-15T22:04:25 IST" name="mono" description="here we enter Mobile number" finished-at="2022-09-15T22:04:29 IST" duration-ms="3239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mono -->
+        <test-method signature="continuebt()[pri:5, instance:TestNgPractice.TestNgTask2@3e27aa33]" started-at="2022-09-15T22:04:29 IST" name="continuebt" description="Here we click on Continue button" finished-at="2022-09-15T22:04:32 IST" duration-ms="3335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continuebt -->
+        <test-method signature="emailin()[pri:6, instance:TestNgPractice.TestNgTask2@3e27aa33]" started-at="2022-09-15T22:04:32 IST" name="emailin" description="Here we insert email id to registration" finished-at="2022-09-15T22:04:35 IST" duration-ms="3259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailin -->
+        <test-method signature="namein()[pri:7, instance:TestNgPractice.TestNgTask2@3e27aa33]" started-at="2022-09-15T22:04:35 IST" name="namein" description="Here we enter our name" finished-at="2022-09-15T22:04:38 IST" duration-ms="3272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- namein -->
+        <test-method signature="DOBin()[pri:8, instance:TestNgPractice.TestNgTask2@3e27aa33]" started-at="2022-09-15T22:04:38 IST" name="DOBin" description="Here we enter our Date of Birth" finished-at="2022-09-15T22:04:42 IST" duration-ms="3885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DOBin -->
+        <test-method signature="passwordin()[pri:9, instance:TestNgPractice.TestNgTask2@3e27aa33]" started-at="2022-09-15T22:04:42 IST" name="passwordin" description="Here we enter valid password with required credentials" finished-at="2022-09-15T22:04:46 IST" duration-ms="3241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordin -->
+        <test-method signature="clickcont()[pri:10, instance:TestNgPractice.TestNgTask2@3e27aa33]" started-at="2022-09-15T22:04:46 IST" name="clickcont" description="Here we click on Continue button" finished-at="2022-09-15T22:04:49 IST" duration-ms="3361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickcont -->
+        <test-method is-config="true" signature="LogOut()[pri:0, instance:TestNgPractice.TestNgTask2@3e27aa33]" started-at="2022-09-15T22:04:49 IST" name="LogOut" finished-at="2022-09-15T22:04:50 IST" duration-ms="1364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+      </class> <!-- TestNgPractice.TestNgTask2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
