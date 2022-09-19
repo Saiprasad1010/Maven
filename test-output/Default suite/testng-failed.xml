@@ -5,13 +5,18 @@
     <classes>
       <class name="TestNgPractice.TestNgTask2">
         <methods>
+          <include name="Iframe"/>
           <include name="clickcont"/>
+          <include name="continuebt"/>
+          <include name="mono"/>
           <include name="passwordin"/>
           <include name="BrowserSet"/>
           <include name="LogOut"/>
+          <include name="registerbt"/>
           <include name="DOBin"/>
           <include name="namein"/>
           <include name="emailin"/>
+          <include name="loginbt"/>
         </methods>
       </class> <!-- TestNgPractice.TestNgTask2 -->
     </classes>
